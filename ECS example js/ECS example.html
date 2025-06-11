@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced ECS Game</title>
+  <style>
+    * {
+      overflow: hidden;
+    }
+
+    canvas {
+      background: #111;
+      display: block;
+      margin: 0 auto;
+      border: 2px solid #f00;
+      overflow: hidden;
+    }
+
+    .label {
+      position: absolute;
+      color: white;
+      font-size: 12px;
+      pointer-events: none;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="game" width="600" height="400"></canvas>
+  <div id="labels"></div>
+  <script type="text/javascript" src="ecs-architecture.js" defer></script>
+  <script type="text/javascript" src="ecs-example-components.js" defer></script>
+  <script type="text/javascript" src="ecs-example-systems.js" defer></script>
+  <script type="text/javascript" src="ecs-example-entities.js" defer></script>
+  <script type="text/javascript" src="ecs-example.js" defer></script>
+</body>
+
+</html>
