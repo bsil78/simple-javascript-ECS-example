@@ -2,61 +2,61 @@
 
 # Summary <a href="#summary" />
 
-[Summary](/#summary)
+[Summary](/README.md#summary)
 
-[Architecture, advantages and drawbacks](/#architecture,-advantages-and-drawbacks)
+[Architecture, advantages and drawbacks](/README.md#architecture,-advantages-and-drawbacks)
 
-[Summary:](/#summary:)
+[Summary:](/README.md#summary:)
 
-[✅ Advantages of ECS](/#✅-advantages-of-ecs)
+[✅ Advantages of ECS](/README.md#✅-advantages-of-ecs)
 
-[❌ Drawbacks of ECS](/#❌-drawbacks-of-ecs)
+[❌ Drawbacks of ECS](/README.md#❌-drawbacks-of-ecs)
 
-[Example of ECS architecture : Structures and Workflows](/#example-of-ecs-architecture-:-structures-and-workflows)
+[Example of ECS architecture : Structures and Workflows](/README.md#example-of-ecs-architecture-:-structures-and-workflows)
 
-[🎮 Conceptual Example: A Game with Moving Entities](/#🎮-conceptual-example:-a-game-with-moving-entities)
+[🎮 Conceptual Example: A Game with Moving Entities](/README.md#🎮-conceptual-example:-a-game-with-moving-entities)
 
-[📦 example structures :](/#📦-example-structures-:)
+[📦 example structures :](/README.md#📦-example-structures-:)
 
-[⛓️ Workflows](/#⛓️-workflows)
+[⛓️ Workflows](/README.md#⛓️-workflows)
 
-[🧱ECS Structures](/#🧱ecs-structures)
+[🧱ECS Structures](/README.md#🧱ecs-structures)
 
-[🧩 ECS Components](/#🧩-ecs-components)
+[🧩 ECS Components](/README.md#🧩-ecs-components)
 
-[Example of components](/#example-of-components)
+[Example of components](/README.md#example-of-components)
 
-[⚙️ECS Entities](/#⚙️ecs-entities)
+[⚙️ECS Entities](/README.md#⚙️ecs-entities)
 
-[Example of entities](/#example-of-entities)
+[Example of entities](/README.md#example-of-entities)
 
-[🔁 ECS Systems](/#🔁-ecs-systems)
+[🔁 ECS Systems](/README.md#🔁-ecs-systems)
 
-[Example of system](/#example-of-system)
+[Example of system](/README.md#example-of-system)
 
-[Entities and World interactions in ECS architecture](/#entities-and-world-interactions-in-ecs-architecture)
+[Entities and World interactions in ECS architecture](/README.md#entities-and-world-interactions-in-ecs-architecture)
 
-[🔄 Entity Interactions in ECS](/#🔄-entity-interactions-in-ecs)
+[🔄 Entity Interactions in ECS](/README.md#🔄-entity-interactions-in-ecs)
 
-[💡 Key Idea:](/#💡-key-idea:)
+[💡 Key Idea:](/README.md#💡-key-idea:)
 
-[📌 Summary](/#📌-summary)
+[📌 Summary](/README.md#📌-summary)
 
-[🧩 1\. Inter-Entity Interaction](/#🧩-1.-inter-entity-interaction)
+[🧩 1\. Inter-Entity Interaction](/README.md#🧩-1.-inter-entity-interaction)
 
-[Example: Collision Detection](/#example:-collision-detection)
+[Example: Collision Detection](/README.md#example:-collision-detection)
 
-[System: CollisionSystem](/#system:-collisionsystem)
+[System: CollisionSystem](/README.md#system:-collisionsystem)
 
-[🧭 2\. Interaction with the Environment (Game World)](/#🧭-2.-interaction-with-the-environment-\(game-world\))
+[🧭 2\. Interaction with the Environment (Game World)](/README.md#🧭-2.-interaction-with-the-environment-\(game-world\))
 
-[Environment Representation:](/#environment-representation:)
+[Environment Representation:](/README.md#environment-representation:)
 
-[System: MovementSystem with Environment Check](/#system:-movementsystem-with-environment-check)
+[System: MovementSystem with Environment Check](/README.md#system:-movementsystem-with-environment-check)
 
-[✅ Example: Enemy Sees Player](/#✅-example:-enemy-sees-player)
+[✅ Example: Enemy Sees Player](/README.md#✅-example:-enemy-sees-player)
 
-[System: VisionSystem](/#system:-visionsystem)
+[System: VisionSystem](/README.md#system:-visionsystem)
 
 # 
 
