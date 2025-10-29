@@ -4,9 +4,9 @@
 
 [Summary](/README.md#summary)
 
-[Architecture, advantages and drawbacks](/README.md#architecture,-advantages-and-drawbacks)
+[Architecture, advantages and drawbacks](/README.md#architecture-advantages-and-drawbacks)
 
-[Summary:](/README.md#summary:)
+[Summary:](/README.md#archi-summary)
 
 [✅ Advantages of ECS](/README.md#✅-advantages-of-ecs)
 
@@ -62,11 +62,11 @@
 
 ---
 
-# Architecture, advantages and drawbacks <a href="#architecture,-advantages-and-drawbacks" />
+# Architecture, advantages and drawbacks <a href="#architecture-advantages-and-drawbacks" />
 
 The **Entity-Component-System (ECS)** architecture is a design pattern commonly used in game development, especially in performance-critical and data-oriented contexts. 
 
-## **Summary**: <a href="#summary:" />
+## **Summary**: <a href="#archi-summary" />
 
  ECS shines in large, performance-sensitive games (like simulations or MMOs) where data-driven design and scalability are priorities. However, it can be a burden for small or simple projects due to its complexity and learning curve.
 
