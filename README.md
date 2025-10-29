@@ -1,78 +1,78 @@
 # Entity Component System
 
-# Summary {#summary}
+# Summary <a href="#summary" />
 
-[Summary](#summary)
+[Summary](/#summary)
 
-[Architecture, advantages and drawbacks](#architecture,-advantages-and-drawbacks)
+[Architecture, advantages and drawbacks](/#architecture,-advantages-and-drawbacks)
 
-[Summary:](#summary:)
+[Summary:](/#summary:)
 
-[✅ Advantages of ECS](#✅-advantages-of-ecs)
+[✅ Advantages of ECS](/#✅-advantages-of-ecs)
 
-[❌ Drawbacks of ECS](#❌-drawbacks-of-ecs)
+[❌ Drawbacks of ECS](/#❌-drawbacks-of-ecs)
 
-[Example of ECS architecture : Structures and Workflows](#example-of-ecs-architecture-:-structures-and-workflows)
+[Example of ECS architecture : Structures and Workflows](/#example-of-ecs-architecture-:-structures-and-workflows)
 
-[🎮 Conceptual Example: A Game with Moving Entities](#🎮-conceptual-example:-a-game-with-moving-entities)
+[🎮 Conceptual Example: A Game with Moving Entities](/#🎮-conceptual-example:-a-game-with-moving-entities)
 
-[📦 example structures :](#📦-example-structures-:)
+[📦 example structures :](/#📦-example-structures-:)
 
-[⛓️ Workflows](#⛓️-workflows)
+[⛓️ Workflows](/#⛓️-workflows)
 
-[🧱ECS Structures](#🧱ecs-structures)
+[🧱ECS Structures](/#🧱ecs-structures)
 
-[🧩 ECS Components](#🧩-ecs-components)
+[🧩 ECS Components](/#🧩-ecs-components)
 
-[Example of components](#example-of-components)
+[Example of components](/#example-of-components)
 
-[⚙️ECS Entities](#⚙️ecs-entities)
+[⚙️ECS Entities](/#⚙️ecs-entities)
 
-[Example of entities](#example-of-entities)
+[Example of entities](/#example-of-entities)
 
-[🔁 ECS Systems](#🔁-ecs-systems)
+[🔁 ECS Systems](/#🔁-ecs-systems)
 
-[Example of system](#example-of-system)
+[Example of system](/#example-of-system)
 
-[Entities and World interactions in ECS architecture](#entities-and-world-interactions-in-ecs-architecture)
+[Entities and World interactions in ECS architecture](/#entities-and-world-interactions-in-ecs-architecture)
 
-[🔄 Entity Interactions in ECS](#🔄-entity-interactions-in-ecs)
+[🔄 Entity Interactions in ECS](/#🔄-entity-interactions-in-ecs)
 
-[💡 Key Idea:](#💡-key-idea:)
+[💡 Key Idea:](/#💡-key-idea:)
 
-[📌 Summary](#📌-summary)
+[📌 Summary](/#📌-summary)
 
-[🧩 1\. Inter-Entity Interaction](#🧩-1.-inter-entity-interaction)
+[🧩 1\. Inter-Entity Interaction](/#🧩-1.-inter-entity-interaction)
 
-[Example: Collision Detection](#example:-collision-detection)
+[Example: Collision Detection](/#example:-collision-detection)
 
-[System: CollisionSystem](#system:-collisionsystem)
+[System: CollisionSystem](/#system:-collisionsystem)
 
-[🧭 2\. Interaction with the Environment (Game World)](#🧭-2.-interaction-with-the-environment-\(game-world\))
+[🧭 2\. Interaction with the Environment (Game World)](/#🧭-2.-interaction-with-the-environment-\(game-world\))
 
-[Environment Representation:](#environment-representation:)
+[Environment Representation:](/#environment-representation:)
 
-[System: MovementSystem with Environment Check](#system:-movementsystem-with-environment-check)
+[System: MovementSystem with Environment Check](/#system:-movementsystem-with-environment-check)
 
-[✅ Example: Enemy Sees Player](#✅-example:-enemy-sees-player)
+[✅ Example: Enemy Sees Player](/#✅-example:-enemy-sees-player)
 
-[System: VisionSystem](#system:-visionsystem)
+[System: VisionSystem](/#system:-visionsystem)
 
 # 
 
 ---
 
-# Architecture, advantages and drawbacks {#architecture,-advantages-and-drawbacks}
+# Architecture, advantages and drawbacks <a href="#architecture,-advantages-and-drawbacks" />
 
 The **Entity-Component-System (ECS)** architecture is a design pattern commonly used in game development, especially in performance-critical and data-oriented contexts. 
 
-## **Summary**: {#summary:}
+## **Summary**: <a href="#summary:" />
 
  ECS shines in large, performance-sensitive games (like simulations or MMOs) where data-driven design and scalability are priorities. However, it can be a burden for small or simple projects due to its complexity and learning curve.
 
 Here’s a concise breakdown of its **advantages** and **drawbacks**:
 
-## ✅ Advantages of ECS {#✅-advantages-of-ecs}
+## ✅ Advantages of ECS <a href="#✅-advantages-of-ecs" />
 
 1. **Performance & Cache Efficiency**
 
@@ -94,7 +94,7 @@ Here’s a concise breakdown of its **advantages** and **drawbacks**:
 
    * Systems don’t depend on each other directly, which reduces coupling and makes unit testing easier.
 
-## ❌ Drawbacks of ECS {#❌-drawbacks-of-ecs}
+## ❌ Drawbacks of ECS <a href="#❌-drawbacks-of-ecs" />
 
 1. **Complexity for Small Projects**
 
@@ -118,7 +118,7 @@ Here’s a concise breakdown of its **advantages** and **drawbacks**:
 
 ---
 
-# Example of ECS architecture : Structures and Workflows {#example-of-ecs-architecture-:-structures-and-workflows}
+# Example of ECS architecture : Structures and Workflows <a href="#example-of-ecs-architecture-:-structures-and-workflows" />
 
 Here’s a **simple, self-explanatory example** of how **ECS architecture works**, focusing purely on **structure and workflow**, without engine-specific code or excessive detail.
 
@@ -130,11 +130,11 @@ This architecture allows:
 
 * Decoupled code (systems don’t know about each other)
 
-## 🎮 Conceptual Example: A Game with Moving Entities {#🎮-conceptual-example:-a-game-with-moving-entities}
+## 🎮 Conceptual Example: A Game with Moving Entities <a href="#🎮-conceptual-example:-a-game-with-moving-entities" />
 
 Let’s say we have a 2D game with entities that can **move**.
 
-### **📦 example structures :** {#📦-example-structures-:}
+### **📦 example structures :** <a href="#📦-example-structures-:" />
 
 | Layer | Contains | Example |
 | :---- | :---- | :---- |
@@ -142,7 +142,7 @@ Let’s say we have a 2D game with entities that can **move**.
 | Component | Raw data, no logic | `PositionComponent` |
 | System | Logic, stateless | `MovementSystem` |
 
-## ⛓️ Workflows {#⛓️-workflows}
+## ⛓️ Workflows <a href="#⛓️-workflows" />
 
 1. **Define Components** (data containers).
 
@@ -152,17 +152,17 @@ Let’s say we have a 2D game with entities that can **move**.
 
 4. **Update Loop** calls each system every frame.
 
-## 🧱ECS Structures {#🧱ecs-structures}
+## 🧱ECS Structures <a href="#🧱ecs-structures" />
 
 * **Entity**: A unique ID. It holds no data or behavior.   
 * **Component**: Plain data, no logic.   
 * **System**: Logic that operates on entities with specific components.
 
-### 🧩 ECS Components {#🧩-ecs-components}
+### 🧩 ECS Components <a href="#🧩-ecs-components" />
 
 Components store only the data, no methods.
 
-#### Example of components {#example-of-components}
+#### Example of components <a href="#example-of-components" />
 
 pseudocode:  
 `PositionComponent:`  
@@ -173,11 +173,11 @@ pseudocode:
     `vx: float`  
     `vy: float`
 
-### ⚙️ECS Entities {#⚙️ecs-entities}
+### ⚙️ECS Entities <a href="#⚙️ecs-entities" />
 
 Entities have only an identity and contain components for systems to process.
 
-#### Example of entities {#example-of-entities}
+#### Example of entities <a href="#example-of-entities" />
 
 Imagine we have two entities:
 
@@ -191,9 +191,9 @@ pseudocode:
   `- PositionComponent { x: 5, y: 5 }`  
   `- VelocityComponent { vx: -1, vy: 0 }`
 
-### 🔁 ECS Systems {#🔁-ecs-systems}
+### 🔁 ECS Systems <a href="#🔁-ecs-systems" />
 
-#### Example of system {#example-of-system}
+#### Example of system <a href="#example-of-system" />
 
 A system that moves all entities with both `Position` and `Velocity`.
 
@@ -204,19 +204,19 @@ pseudocode :
 
 # ---
 
-# Entities and World interactions in ECS architecture {#entities-and-world-interactions-in-ecs-architecture}
+# Entities and World interactions in ECS architecture <a href="#entities-and-world-interactions-in-ecs-architecture" />
 
 Here’s a **simple explanation** of how **entities interact with each other** and with the **environment (e.g., game world level)** in an **ECS architecture**, keeping things clean and conceptual.
 
-## **🔄 Entity Interactions in ECS** {#🔄-entity-interactions-in-ecs}
+## **🔄 Entity Interactions in ECS** <a href="#🔄-entity-interactions-in-ecs" />
 
-### **💡 Key Idea:** {#💡-key-idea:}
+### **💡 Key Idea:** <a href="#💡-key-idea:" />
 
 Entities don’t “talk to each other” directly — they **interact indirectly through components and systems**.
 
 Systems create the illusion of "communication" by **responding to shared data and context**.
 
-### 📌 Summary {#📌-summary}
+### 📌 Summary <a href="#📌-summary" />
 
 | Interaction Type | How it Works |
 | :---- | :---- |
@@ -224,11 +224,11 @@ Systems create the illusion of "communication" by **responding to shared data an
 | **Entity ↔ World** | Systems query world data (e.g. tilemap, physics) |
 | **Effects/Events** | Systems can add new components (e.g., Damage, Alert) |
 
-## 🧩 1\. Inter-Entity Interaction {#🧩-1.-inter-entity-interaction}
+## 🧩 1\. Inter-Entity Interaction <a href="#🧩-1.-inter-entity-interaction" />
 
 Let’s say we want entities to **collide** or **follow** each other.
 
-### Example: Collision Detection {#example:-collision-detection}
+### Example: Collision Detection <a href="#example:-collision-detection" />
 
 * Each entity has:
 
@@ -236,7 +236,7 @@ Let’s say we want entities to **collide** or **follow** each other.
 
   * `ColliderComponent`
 
-### System: CollisionSystem {#system:-collisionsystem}
+### System: CollisionSystem <a href="#system:-collisionsystem" />
 
 pseudocode :  
 `for each entity A with Position + Collider:`  
@@ -246,11 +246,11 @@ pseudocode :
 
 Entities interact by **systems comparing or modifying shared component data**.
 
-## 🧭 2\. Interaction with the Environment (Game World) {#🧭-2.-interaction-with-the-environment-(game-world)}
+## 🧭 2\. Interaction with the Environment (Game World) <a href="#🧭-2.-interaction-with-the-environment-(game-world)" />
 
 Imagine a **tile-based level** or a physics world (like walls, water, or terrain).
 
-### Environment Representation: {#environment-representation:}
+### Environment Representation: <a href="#environment-representation:" />
 
 * The world is often a separate structure, e.g.:
 
@@ -260,7 +260,7 @@ Imagine a **tile-based level** or a physics world (like walls, water, or terrain
 
   * A `PhysicsWorld` object
 
-### System: MovementSystem with Environment Check {#system:-movementsystem-with-environment-check}
+### System: MovementSystem with Environment Check <a href="#system:-movementsystem-with-environment-check" />
 
 pseudocode :  
 `for each entity with Position + Velocity:`  
@@ -272,7 +272,7 @@ pseudocode :
 
 Systems query the environment (like a map or physics engine) while updating entities.
 
-## ✅ Example: Enemy Sees Player {#✅-example:-enemy-sees-player}
+## ✅ Example: Enemy Sees Player <a href="#✅-example:-enemy-sees-player" />
 
 * Entities:
 
@@ -280,7 +280,7 @@ Systems query the environment (like a map or physics engine) while updating enti
 
   * Enemy → PositionComponent \+ VisionComponent
 
-### System: VisionSystem {#system:-visionsystem}
+### System: VisionSystem <a href="#system:-visionsystem" />
 
 pseudocode:  
 `for each enemy:`  
