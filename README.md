@@ -4,9 +4,9 @@
 
 [Summary](/README.md#summary)
 
-[Architecture, advantages and drawbacks](/README.md#architecture-advantages-and-drawbacks)
+[Architecture, advantages and drawbacks](/README.md#architecture-advantages-and-drawbacks-)
 
-[Summary:](/README.md#archi-summary)
+[Summary:](/README.md#archi-summary--1)
 
 [✅ Advantages of ECS](/README.md#✅-advantages-of-ecs)
 
