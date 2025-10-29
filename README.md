@@ -4,13 +4,13 @@
 
 [Summary](/README.md#summary)
 
-[Architecture, advantages and drawbacks](/README.md#architecture-advantages-and-drawbacks-)
+[Architecture, advantages and drawbacks](/README.md#architecture-advantages-and-drawbacks)
 
-[Summary:](/README.md#archi-summary--1)
+[Summary:](/README.md#archi-summary)
 
-[✅ Advantages of ECS](/README.md#✅-advantages-of-ecs)
+[✅ Advantages of ECS](/README.md#advantages-of-ecs)
 
-[❌ Drawbacks of ECS](/README.md#❌-drawbacks-of-ecs)
+[❌ Drawbacks of ECS](/README.md#drawbacks-of-ecs)
 
 [Example of ECS architecture : Structures and Workflows](/README.md#example-of-ecs-architecture-:-structures-and-workflows)
 
@@ -72,7 +72,7 @@ The **Entity-Component-System (ECS)** architecture is a design pattern commonly 
 
 Here’s a concise breakdown of its **advantages** and **drawbacks**:
 
-## ✅ Advantages of ECS <a href="#✅-advantages-of-ecs" />
+## ✅ Advantages of ECS <a href="#advantages-of-ecs" />
 
 1. **Performance & Cache Efficiency**
 
@@ -94,7 +94,7 @@ Here’s a concise breakdown of its **advantages** and **drawbacks**:
 
    * Systems don’t depend on each other directly, which reduces coupling and makes unit testing easier.
 
-## ❌ Drawbacks of ECS <a href="#❌-drawbacks-of-ecs" />
+## ❌ Drawbacks of ECS <a href="#drawbacks-of-ecs" />
 
 1. **Complexity for Small Projects**
 
